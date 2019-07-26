@@ -72,6 +72,7 @@ export const Home = () => (
 	    </div>
 	    
 	    <h2 class="gallery">Come Visit Us!</h2>
+	    <p>This is a test</p>
 	    <div>
 	    	<img src={pic1} alt="pic1" />
 	    	<img src={pic6} alt="pic6" class="rotate90" />
