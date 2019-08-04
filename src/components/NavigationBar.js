@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Nav, Navbar } from 'react-bootstrap';
 import styled from 'styled-components';
-import tunyLogo from '../assets/tunyLogo.jpg';
+import tunyLetter from '../assets/tunyLetter.jpg';
 
 const Styles = styled.div`
   .navbar {
@@ -18,8 +18,12 @@ const Styles = styled.div`
   }
 
   #logo {
-    width: 3em;
+    width: 10em;
     height: 3em;
+  }
+
+  .link {
+    font-size: 1.2em;
   }
   
 `;
@@ -27,23 +31,23 @@ const Styles = styled.div`
 export const NavigationBar = () => (
   <Styles>
     <Navbar expand="lg">
-      <Navbar.Brand href="/"><input type="image" id="logo" src={tunyLogo} /></Navbar.Brand>
+      <Navbar.Brand href="/"><input type="image" alt="tunyLetter" id="logo" src={tunyLetter} /></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
           <Nav.Item>
             <Nav.Link>
-              <Link to="/">Home</Link>
+              <Link to="/" class="link">HOME</Link>
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link>
-              <Link to="/about">About</Link>
+              <Link to="/contact" class="link">CONTACT</Link>
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link>
-              <Link to="/contact">Contact</Link>
+              <Link to="/faq" class="link">FAQ</Link>
             </Nav.Link>
           </Nav.Item>
         </Nav>

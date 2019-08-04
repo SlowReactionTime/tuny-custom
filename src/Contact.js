@@ -33,7 +33,7 @@ export const Contact = () => (
 		 <Row>
 		 	<Col>		  
 			  	<p><b>Contact:</b></p>
-			  	<p>(334) 430-3898</p>
+			  	<p>(678) 431-6988</p>
 			  	<p>334tuny@gmail.com</p>
 		  	</Col>
 		  	<Col>

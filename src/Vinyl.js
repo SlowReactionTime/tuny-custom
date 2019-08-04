@@ -3,8 +3,6 @@ import styled from 'styled-components';
 import v1 from './assets/v1.jpg'
 import v2 from './assets/v2.jpg'
 import v3 from './assets/v3.png'
-import v4 from './assets/v4.png'
-import v5 from './assets/v5.png'
 import v6 from './assets/v6.jpg'
 import v7 from './assets/v7.jpg'
 

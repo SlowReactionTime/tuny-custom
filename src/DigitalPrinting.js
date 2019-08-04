@@ -57,14 +57,14 @@ export const DigitalPrinting = () => (
 
 	  <h3>Samples</h3>
 			<div>
-				<img src={dp1} alt="dp1" class="center" class="rotate90" />
-				<img src={dp2} alt="dp2" class="center" class="rotate90" />
+				<img src={dp1} alt="dp1" class="center rotate90" />
+				<img src={dp2} alt="dp2" class="center rotate90" />
 				<img src={dp3} alt="dp3" class="center" />
 			</div>
 			<div>
 				<img src={dp4} alt="dp4" class="center" />
-				<img src={r2} alt="r2" class="center" class="rotate90" />
-				<img src={r1} alt="r1" class="center" class="rotate90" />
+				<img src={r2} alt="r2" class="center rotate90" />
+				<img src={r1} alt="r1" class="center rotate90" />
 			</div>
 	</Styles>
 

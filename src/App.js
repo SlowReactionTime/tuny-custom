@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Home } from './Home';
-import { About } from './About';
+import { FAQ } from './FAQ';
 import { Contact } from './Contact';
 import { Embroidery } from './Embroidery';
 import { DTG } from './DTG';
@@ -19,6 +19,7 @@ import { Jumbotron } from './components/Jumbotron';
 class App extends Component {
   render() {
     return (
+
       <React.Fragment>
         <Router>
           <NavigationBar />
@@ -26,7 +27,7 @@ class App extends Component {
           <Layout>
             <Switch>
               <Route exact path="/" component={Home} />
-              <Route path="/about" component={About} />
+              <Route path="/faq" component={FAQ} />
               <Route path="/contact" component={Contact} />
               <Route path="/embroidery" component={Embroidery} />
               <Route path="/dtg" component={DTG} />
