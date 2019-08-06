@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/tuny-custom/static/media/e8.40f36c57.jpg"
   },
   {
-    "revision": "0d2af87521e6a2980150",
+    "revision": "4ce23420dc2dfafb95af",
     "url": "/tuny-custom/static/css/main.3e1b2a80.chunk.css"
   },
   {
@@ -92,8 +92,8 @@ self.__precacheManifest = [
     "url": "/tuny-custom/static/media/e6.e16ca952.jpg"
   },
   {
-    "revision": "0d2af87521e6a2980150",
-    "url": "/tuny-custom/static/js/main.cece6bb2.chunk.js"
+    "revision": "4ce23420dc2dfafb95af",
+    "url": "/tuny-custom/static/js/main.87ce12be.chunk.js"
   },
   {
     "revision": "74907d9a936fa9553818ec47b3b3138a",
@@ -180,7 +180,7 @@ self.__precacheManifest = [
     "url": "/tuny-custom/static/media/tunyLogo.5ca272de.jpg"
   },
   {
-    "revision": "ccdedf492d060fddd8e5717d0a88a8dc",
+    "revision": "6bf4756cb61eb47560844a4d505d237c",
     "url": "/tuny-custom/index.html"
   }
 ];
