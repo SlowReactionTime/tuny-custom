@@ -53,6 +53,10 @@ const Styles = styled.div`
 	p {
 		font-size: 1.5em;
 	}
+
+	a {
+		font-size: 1.5em;
+	}
 `;
 
 export const Banner = () => (

@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
+import { ProductsFrom } from './components/ProductsFrom.js';
 import dp1 from './assets/dp1.jpg'
 import dp2 from './assets/dp2.jpg'
 import dp3 from './assets/dp3.png'
@@ -44,6 +45,10 @@ const Styles = styled.div`
 	    -ms-transform: rotate(90deg);
 	    transform: rotate(90deg);
 	}
+
+	a {
+		font-size: 1.5em;
+	}
 `;
 
 export const DigitalPrinting = () => (
@@ -66,6 +71,7 @@ export const DigitalPrinting = () => (
 				<img src={r2} alt="r2" class="center rotate90" />
 				<img src={r1} alt="r1" class="center rotate90" />
 			</div>
+			<ProductsFrom />
 	</Styles>
 
 )

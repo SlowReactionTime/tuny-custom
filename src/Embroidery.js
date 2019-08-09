@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
+import { ProductsFrom } from './components/ProductsFrom.js';
 import e1 from './assets/e1.jpg';
 import e2 from './assets/e2.jpg';
 import e3 from './assets/e3.jpg';
@@ -67,6 +68,10 @@ const Styles = styled.div`
 	    -ms-transform: rotate(90deg);
 	    transform: rotate(90deg);
 	}
+
+	a {
+		font-size: 1.5em;
+	}
 `;
 
 export const Embroidery = () => (
@@ -112,6 +117,8 @@ export const Embroidery = () => (
 
 			</div>
 		 </div>
+
+		 <ProductsFrom />
 	</Styles>
 
 )

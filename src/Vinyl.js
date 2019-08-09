@@ -1,8 +1,10 @@
 import React from 'react'
 import styled from 'styled-components';
+import { ProductsFrom } from './components/ProductsFrom.js';
 import v1 from './assets/v1.jpg'
 import v2 from './assets/v2.jpg'
-import v3 from './assets/v3.png'
+import v3 from './assets/v3.jpg'
+import v4 from './assets/v4.jpg'
 import v6 from './assets/v6.jpg'
 import v7 from './assets/v7.jpg'
 
@@ -23,7 +25,7 @@ const Styles = styled.div`
 		 border-radius: 20px;
 		 width: 33%
 		 height: 33%;
-		 padding: 10ox 10px 10px 10px;
+		 padding: 70px 10px 70px 10px;
 		 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #f7c52f;
 	}
 
@@ -51,6 +53,10 @@ const Styles = styled.div`
 	    -ms-transform: rotate(90deg);
 	    transform: rotate(90deg);
 	}
+
+	a {
+		font-size: 1.5em;
+	}
 `;
 
 export const Vinyl = () => (
@@ -62,16 +68,17 @@ export const Vinyl = () => (
 	  </div>
 
 	  <h3>Samples</h3>
-			<div>
-				<img src={v1} alt="v1" class="rotate-90"/>
-				<img src={v2} alt="v2" class="rotate90" />
-				<img src={v3} alt="v3" />
-			</div>
-			<div>
-				<img src={v1} alt="v1" class="rotate-90" />
-				<img src={v6} alt="v6" class="rotate90" />
-				<img src={v7} alt="v7" class="rotate90" />
-			</div>
+		<div>
+			<img src={v1} alt="v1" class="rotate-90"/>
+			<img src={v2} alt="v2" class="rotate90" />
+			<img src={v4} alt="v4" class="rotate90" />
+		</div>
+		<div>
+			<img src={v3} alt="v3" class="rotate90" />
+			<img src={v6} alt="v6" class="rotate90" />
+			<img src={v7} alt="v7" class="rotate90" />
+		</div>
+		<ProductsFrom />
 	</Styles>
 
 )

@@ -1,11 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
-import dt1 from './assets/dt1.png'
+import { ProductsFrom } from './components/ProductsFrom.js';
+import dt1 from './assets/dt1.jpg'
 import dt2 from './assets/dt2.png'
 import dt3 from './assets/dt3.png'
 import dt4 from './assets/dt4.jpg'
 import dt5 from './assets/dt5.jpg'
 import dt6 from './assets/dt6.jpg'
+import dt7 from './assets/dt7.jpg'
 
 const Styles = styled.div`
 	h2 {
@@ -62,6 +64,10 @@ const Styles = styled.div`
 	    -ms-transform: rotate(90deg);
 	    transform: rotate(90deg);
 	}
+
+	a {
+		font-size: 1.5em;
+	}
 `;
 
 export const DTG = () => (
@@ -106,7 +112,7 @@ export const DTG = () => (
 
 		<h3>Samples</h3>
 			<div class="center">
-				<img src={dt1} alt="dt1" />
+				<img src={dt1} alt="dt1" class="rotate90" />
 				<img src={dt2} alt="dt2" />
 				<img src={dt3} alt="dt3" />
 				<img src={dt4} alt="dt4" class="rotate90" />
@@ -114,8 +120,9 @@ export const DTG = () => (
 			<div class="center">
 				<img src={dt5} alt="dt5" class="rotate90" />
 				<img src={dt6} alt="dt6" class="rotate90" />
-				<img src={dt3} alt="dt3" />
+				<img src={dt7} alt="dt7" />
 				<img src={dt4} alt="dt4" class="rotate90" />
 			</div>
+			<ProductsFrom />
 	</Styles>
 )

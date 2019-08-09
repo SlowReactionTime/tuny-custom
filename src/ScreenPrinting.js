@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
+import { ProductsFrom } from './components/ProductsFrom.js';
 import sp1 from './assets/sp1.png'
 import sp2 from './assets/sp2.png'
 import sp3 from './assets/4.jpg'
@@ -24,7 +25,7 @@ const Styles = styled.div`
 		 border-radius: 20px;
 		 width: 33%
 		 height: 33%;
-		 padding: 10ox 10px 10px 10px;
+		 padding: 70px 10px 70px 10px;
 		 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #f7c52f;
 	}
 
@@ -43,6 +44,10 @@ const Styles = styled.div`
 	    -o-transform: rotate(90deg);
 	    -ms-transform: rotate(90deg);
 	    transform: rotate(90deg);
+	}
+
+	a {
+		font-size: 1.5em;
 	}
 `;
 
@@ -67,6 +72,7 @@ export const ScreenPrinting = () => (
 				<img src={sp5} alt="sp5" class="rotate90" />
 				<img src={sp3} alt="sp3" class="rotate90"/>
 			</div>
+			<ProductsFrom />
 	</Styles>
 
 )

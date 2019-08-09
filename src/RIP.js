@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components';
+import { ProductsFrom } from './components/ProductsFrom.js';
 import r1 from './assets/r1.jpg'
 import r2 from './assets/r2.jpg'
 import r3 from './assets/r3.png'
-import r4 from './assets/dt5.jpg'
 import r5 from './assets/dt6.jpg'
 
 const Styles = styled.div`
@@ -43,6 +43,10 @@ const Styles = styled.div`
 	    -ms-transform: rotate(90deg);
 	    transform: rotate(90deg);
 	}
+
+	a {
+		font-size: 1.5em;
+	}
 `;
 
 export const RIP = () => (
@@ -56,16 +60,17 @@ export const RIP = () => (
 	  </div>
 
 	  <h3>Samples</h3>
-			<div>
-				<img src={r1} alt="r1" class="rotate90"/>
-				<img src={r2} alt="r2" class="rotate90"/>
-				<img src={r3} alt="r3" />
-			</div>
-			<div>
-				<img src={r4} alt="r4" class="rotate90"/>
-				<img src={r5} alt="r5" class="rotate90"/>
-				<img src={r3} alt="r3" />
-			</div>
+		<div>
+			<img src={r1} alt="r1" class="rotate90"/>
+			<img src={r2} alt="r2" class="rotate90"/>
+			<img src={r3} alt="r3" />
+		</div>
+		<div>
+			<img src={r5} alt="r5" class="rotate90"/>
+			<img src={r5} alt="r5" class="rotate90"/>
+			<img src={r3} alt="r3" />
+		</div>
+		<ProductsFrom />
 	</Styles>
 
 )

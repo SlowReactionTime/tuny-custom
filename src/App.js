@@ -26,7 +26,7 @@ class App extends Component {
           <Jumbotron />
           <Layout>
             <Switch>
-              <Route exact path="/" component={Home} />
+              <Route exact path="/home" component={Home} />
               <Route path="/faq" component={FAQ} />
               <Route path="/contact" component={Contact} />
               <Route path="/embroidery" component={Embroidery} />
@@ -36,7 +36,7 @@ class App extends Component {
               <Route path="/screenPrinting" component={ScreenPrinting} />
               <Route path="/rip" component={RIP} />
               <Route path="/banner" component={Banner} />
-              <Route component={NoMatch} />
+              <Route component={Home} />
             </Switch>
           </Layout>
         </Router>
