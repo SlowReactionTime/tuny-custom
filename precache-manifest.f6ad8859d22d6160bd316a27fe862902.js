@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "40f36c57150cb90a96312d05e0537ccc",
-    "url": "/tuny-custom/static/media/e8.40f36c57.jpg"
+    "revision": "d086a40fccc091c72564dfa31f6adae0",
+    "url": "/tuny-custom/static/media/dt2.d086a40f.png"
   },
   {
-    "revision": "4ce23420dc2dfafb95af",
+    "revision": "838b2ba560350f48a144",
     "url": "/tuny-custom/static/css/main.3e1b2a80.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/tuny-custom/static/js/runtime~main.13a7a58b.js"
   },
   {
-    "revision": "4d828f3badac0e4058aa",
-    "url": "/tuny-custom/static/js/2.bb01a2d8.chunk.js"
+    "revision": "30e8845defbc69fa3b03",
+    "url": "/tuny-custom/static/js/2.95b79176.chunk.js"
   },
   {
     "revision": "e2d0ccce2cba1103a9f72298638ae5c8",
@@ -24,6 +24,10 @@ self.__precacheManifest = [
     "url": "/tuny-custom/static/media/4.4a122df4.jpg"
   },
   {
+    "revision": "9444105063030511c9b9bbfabd17eee1",
+    "url": "/tuny-custom/static/media/dt6.94441050.jpg"
+  },
+  {
     "revision": "8e12a5ff675fc9ef0c0741fd14b9b16f",
     "url": "/tuny-custom/static/media/5.8e12a5ff.jpg"
   },
@@ -32,28 +36,12 @@ self.__precacheManifest = [
     "url": "/tuny-custom/static/media/e7.d2b36cb4.jpg"
   },
   {
-    "revision": "fef8f7de50346ea6d3c0d76ee626f379",
-    "url": "/tuny-custom/static/media/dt5.fef8f7de.jpg"
-  },
-  {
-    "revision": "9444105063030511c9b9bbfabd17eee1",
-    "url": "/tuny-custom/static/media/dt6.94441050.jpg"
-  },
-  {
     "revision": "1217582b90c293b623deac0a79ad869b",
     "url": "/tuny-custom/static/media/r2.1217582b.jpg"
   },
   {
-    "revision": "4ce04a128ad485940f962c45d9d4129f",
-    "url": "/tuny-custom/static/media/dt3.4ce04a12.png"
-  },
-  {
     "revision": "7642063307ad594c5c27d6e28a256f18",
     "url": "/tuny-custom/static/media/dt4.76420633.jpg"
-  },
-  {
-    "revision": "d2a44baecd4bc2914f8684bb51a15d81",
-    "url": "/tuny-custom/static/media/v1.d2a44bae.jpg"
   },
   {
     "revision": "8e6f82b16dd73269218c2c3ddbd071a9",
@@ -92,8 +80,8 @@ self.__precacheManifest = [
     "url": "/tuny-custom/static/media/e6.e16ca952.jpg"
   },
   {
-    "revision": "4ce23420dc2dfafb95af",
-    "url": "/tuny-custom/static/js/main.87ce12be.chunk.js"
+    "revision": "40f36c57150cb90a96312d05e0537ccc",
+    "url": "/tuny-custom/static/media/e8.40f36c57.jpg"
   },
   {
     "revision": "74907d9a936fa9553818ec47b3b3138a",
@@ -104,12 +92,24 @@ self.__precacheManifest = [
     "url": "/tuny-custom/static/media/e10.99840349.jpg"
   },
   {
-    "revision": "6985106bc14d1ec0f5e200a34735a3c3",
-    "url": "/tuny-custom/static/media/dt1.6985106b.png"
+    "revision": "8a60536b1bf0e231191102c81a52b323",
+    "url": "/tuny-custom/static/media/dt1.8a60536b.jpg"
   },
   {
-    "revision": "d086a40fccc091c72564dfa31f6adae0",
-    "url": "/tuny-custom/static/media/dt2.d086a40f.png"
+    "revision": "838b2ba560350f48a144",
+    "url": "/tuny-custom/static/js/main.e368fe61.chunk.js"
+  },
+  {
+    "revision": "4ce04a128ad485940f962c45d9d4129f",
+    "url": "/tuny-custom/static/media/dt3.4ce04a12.png"
+  },
+  {
+    "revision": "d9a7e25abd9bb33a28e23082f6ae8d20",
+    "url": "/tuny-custom/static/media/dt5.d9a7e25a.jpg"
+  },
+  {
+    "revision": "09c1c74674c0acdc4e7b70831cd6e5f5",
+    "url": "/tuny-custom/static/media/dt7.09c1c746.jpg"
   },
   {
     "revision": "68d8a9680975557a88dc799edcb16d73",
@@ -128,12 +128,20 @@ self.__precacheManifest = [
     "url": "/tuny-custom/static/media/dp4.79226a66.jpg"
   },
   {
+    "revision": "d2a44baecd4bc2914f8684bb51a15d81",
+    "url": "/tuny-custom/static/media/v1.d2a44bae.jpg"
+  },
+  {
     "revision": "347b1ef66a79823fdbad4a7a41842e44",
     "url": "/tuny-custom/static/media/v2.347b1ef6.jpg"
   },
   {
-    "revision": "f669969beba235cce51ba26eff908f55",
-    "url": "/tuny-custom/static/media/v3.f669969b.png"
+    "revision": "04eac1ded8d4b606e16c9fbc4534e9c2",
+    "url": "/tuny-custom/static/media/v3.04eac1de.jpg"
+  },
+  {
+    "revision": "a9603a664d89c635bcdd88cab132db89",
+    "url": "/tuny-custom/static/media/v4.a9603a66.jpg"
   },
   {
     "revision": "2f8a9412ff5950f625a51fcf9df471e9",
@@ -180,7 +188,7 @@ self.__precacheManifest = [
     "url": "/tuny-custom/static/media/tunyLogo.5ca272de.jpg"
   },
   {
-    "revision": "6bf4756cb61eb47560844a4d505d237c",
+    "revision": "f47c9e81cfbb60fde6bdab5d91e54da1",
     "url": "/tuny-custom/index.html"
   }
 ];
