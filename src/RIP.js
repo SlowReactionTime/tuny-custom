@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components';
-import { ProductsFrom } from './components/ProductsFrom.js';
 import r1 from './assets/r1.jpg'
 import r2 from './assets/r2.jpg'
 import r3 from './assets/r3.png'
@@ -51,6 +50,7 @@ const Styles = styled.div`
 
 export const RIP = () => (
 	<Styles>
+		{ window.scrollTo(0, 0) }
 	  <div>
 	    <h2>RIP Shirts</h2>
 	    <h3>Our experience in designing and making memorial t-shirts will help you to remember your family, friends and the ones you love.</h3>
@@ -70,7 +70,6 @@ export const RIP = () => (
 			<img src={r5} alt="r5" class="rotate90"/>
 			<img src={r3} alt="r3" />
 		</div>
-		<ProductsFrom />
 	</Styles>
 
 )

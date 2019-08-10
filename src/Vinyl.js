@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components';
-import { ProductsFrom } from './components/ProductsFrom.js';
 import v1 from './assets/v1.jpg'
 import v2 from './assets/v2.jpg'
 import v3 from './assets/v3.jpg'
@@ -61,6 +60,8 @@ const Styles = styled.div`
 
 export const Vinyl = () => (
 	<Styles>
+		{ window.scrollTo(0, 0) }
+		
 	  <div>
 	    <h2>Vinyl</h2>
 	    <h3>If you would like to put your design on your colored shirts or you need metallic ink, without minimum quantity requirement, we do 1 – 2 color printing with Vinyl Heat Press.</h3>
@@ -78,7 +79,6 @@ export const Vinyl = () => (
 			<img src={v6} alt="v6" class="rotate90" />
 			<img src={v7} alt="v7" class="rotate90" />
 		</div>
-		<ProductsFrom />
 	</Styles>
 
 )

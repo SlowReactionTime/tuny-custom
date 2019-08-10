@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components';
-import { ProductsFrom } from './components/ProductsFrom.js';
 import dp1 from './assets/dp1.jpg'
 import dp2 from './assets/dp2.jpg'
 import dp3 from './assets/dp3.png'
@@ -53,6 +52,8 @@ const Styles = styled.div`
 
 export const DigitalPrinting = () => (
 	<Styles>
+		{ window.scrollTo(0, 0) }
+		
 	  <div>
 	    <h2>Digital Printing</h2>
 	    <h3>We do full color printing on most of fabrics with all colors using digital printing method.  It is durable and provides vibrant color expression.</h3>
@@ -71,7 +72,6 @@ export const DigitalPrinting = () => (
 				<img src={r2} alt="r2" class="center rotate90" />
 				<img src={r1} alt="r1" class="center rotate90" />
 			</div>
-			<ProductsFrom />
-	</Styles>
+		</Styles>
 
 )

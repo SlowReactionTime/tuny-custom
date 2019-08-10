@@ -16,11 +16,6 @@ const Styles = styled.div`
 		padding: 30px 0px 30px 0px;
 	}
 
-	.disclaimer {
-		font-style: oblique;
-		text-align: center;
-	}
-
 	.goldColor {
 		color: #f7c52f;
 	}

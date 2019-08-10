@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import { ProductsFrom } from './components/ProductsFrom.js';
 import dt1 from './assets/dt1.jpg'
 import dt2 from './assets/dt2.png'
 import dt3 from './assets/dt3.png'
@@ -72,6 +71,8 @@ const Styles = styled.div`
 
 export const DTG = () => (
 	<Styles>
+		{ window.scrollTo(0, 0) }
+		
 	  <div>
 	    <h2>Direct to Garment (DTG)</h2>
 	    <p>DTG  is a direct full color print on white or light colored shirts.  This gives very soft feeling on the printed surface without sense of difference with the fabric material.</p>
@@ -123,6 +124,5 @@ export const DTG = () => (
 				<img src={dt7} alt="dt7" />
 				<img src={dt4} alt="dt4" class="rotate90" />
 			</div>
-			<ProductsFrom />
 	</Styles>
 )

@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components';
-import { ProductsFrom } from './components/ProductsFrom.js';
 import sp1 from './assets/sp1.png'
 import sp2 from './assets/sp2.png'
 import sp3 from './assets/4.jpg'
@@ -53,6 +52,8 @@ const Styles = styled.div`
 
 export const ScreenPrinting = () => (
 	<Styles>
+		{ window.scrollTo(0, 0) }
+		
 	  <div>
 	    <h2>Screen Printing</h2>
 	    <h3>Silk screen printing is an ideal method for large quantity orders with limited colored design for cost saving and durability.</h3>
@@ -72,7 +73,6 @@ export const ScreenPrinting = () => (
 				<img src={sp5} alt="sp5" class="rotate90" />
 				<img src={sp3} alt="sp3" class="rotate90"/>
 			</div>
-			<ProductsFrom />
 	</Styles>
 
 )

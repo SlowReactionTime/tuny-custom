@@ -61,6 +61,8 @@ const Styles = styled.div`
 
 export const Banner = () => (
 	<Styles>
+		{ window.scrollTo(0, 0) }
+		
 	 	<div>
 		    <h2>Banner, Yard Sign & Decal</h2>
 		    <p>We do more!!!  We provide the same good quality on your signs and banners!!!</p>
@@ -191,5 +193,4 @@ export const Banner = () => (
 			</div>
 		 </div>
 	</Styles>
-
 )

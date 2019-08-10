@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components';
-import { ProductsFrom } from './components/ProductsFrom.js';
 import e1 from './assets/e1.jpg';
 import e2 from './assets/e2.jpg';
 import e3 from './assets/e3.jpg';
@@ -76,6 +75,8 @@ const Styles = styled.div`
 
 export const Embroidery = () => (
 	<Styles>
+		{ window.scrollTo(0, 0) }
+		
 	 	<div>
 		    <h2>Embroidery</h2>
 		    <p>Embroidery provides classic and professional looking for your garment and it lasts long.  We do monogram, logo, and / or personalize design on various fabrics including uniforms, vests, hats, bags and patch, etc..  We do not charge setup / digitizing fee. (exception: complicated design with quantity less than 10)</p>
@@ -117,8 +118,5 @@ export const Embroidery = () => (
 
 			</div>
 		 </div>
-
-		 <ProductsFrom />
 	</Styles>
-
 )

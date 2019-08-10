@@ -10,6 +10,7 @@ import { Vinyl } from './Vinyl';
 import { ScreenPrinting } from './ScreenPrinting';
 import { RIP } from './RIP';
 import { Banner } from './Banner';
+import { Catalogue } from './Catalogue';
 
 import { NoMatch } from './NoMatch';
 import { Layout } from './components/Layout';
@@ -19,8 +20,7 @@ import { Jumbotron } from './components/Jumbotron';
 class App extends Component {
   render() {
     return (
-
-      <React.Fragment>
+      <React.Fragment> 
         <Router>
           <NavigationBar />
           <Jumbotron />
@@ -36,6 +36,7 @@ class App extends Component {
               <Route path="/screenPrinting" component={ScreenPrinting} />
               <Route path="/rip" component={RIP} />
               <Route path="/banner" component={Banner} />
+              <Route path="/catalogue" component={Catalogue} />
               <Route component={Home} />
             </Switch>
           </Layout>

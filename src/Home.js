@@ -15,6 +15,7 @@ import icon4 from './assets/icon4.png';
 import icon5 from './assets/icon5.png';
 import icon6 from './assets/icon6.png';
 import icon7 from './assets/icon7.png';
+import icon8 from './assets/icon8.png';
 import { Container, Row, Col } from 'react-bootstrap';
 
 const Styles = styled.div`
@@ -86,12 +87,6 @@ const Styles = styled.div`
 	.padHorizontal {
 		padding: 60px 0px 60px 0px;
 	}
-
-	.disclaimer {
-		font-style: oblique;
-		text-align: center;
-	}
-
 `;
 
 export const Home = () => (
@@ -129,6 +124,7 @@ export const Home = () => (
 		    <Link to="/screenPrinting" class="list"><img src={icon5} class="icon" alt="icon5" />Screen Printing</Link><br /> 
 		    <Link to="/rip" class="list"><img src={icon6} class="icon" alt="icon6" />RIP Shirts</Link><br /> 
 		    <Link to="/banner" class="list"><img src={icon7} class="icon" alt="icon7" />Banner / Yard Sign</Link><br /> 
+		    <Link to="/catalogue" class="list"><img src={icon8} class="icon" alt="icon8" />Catalogue</Link><br /> 
 	    </div>
 	    
 	    <h2 class="gallery">Come Visit Us!</h2>
@@ -141,10 +137,6 @@ export const Home = () => (
 	    	<img src={pic5} alt="pic5" class="sample"/>
 	    	<img src={pic2} alt="pic2" class="sample"/>
 	    </div>
-	  </div>
-
-	  <div class="disclaimer">
-	  	<p>Icon made by <a href="https://www.flaticon.com/" target="_blank">Freepik</a> and <a href="https://www.flaticon.com/search?search-type=icons&word=Nikita+Golubev&license=&color=&stroke=&current_section=&author_id=&pack_id=&family_id=&style_id=&category_id=" target="_blank">Nikita Golubev</a> from <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a></p>
 	  </div>
 	</Styles>
 )
