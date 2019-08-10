@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/tuny-custom/precache-manifest.01cf093b67c6bc8cb9a1fd8e79c2ff01.js"
+  "/tuny-custom/precache-manifest.c3badbb1f25f64c52c2ed937db4302da.js"
 );
 
 workbox.clientsClaim();
