@@ -1,5 +1,5 @@
 # tuny-custom
-A website, developed with React, for a custom t-shirt store. <br />
+A business website, developed with React, for a custom t-shirt store. <br />
 Tuny Custom T-shirts: https://334tuny.com/ <br />
 Also available on my Github page: https://slowreactiontime.github.io/tuny-custom/
 
